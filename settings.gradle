@@ -1,1 +1,1 @@
-include ':app', ':samplemodule'
+include ':app', ':samplemodule', ':uixml'
