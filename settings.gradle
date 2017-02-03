@@ -1,1 +1,1 @@
-include ':app', ':samplemodule', ':uixml'
+include ':app', ':samplemodule', ':uixml', ':littlemoreui', ':uiproperties', ':relativelayoutapp'
