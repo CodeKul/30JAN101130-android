@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="1"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgFngr"
+        android:layout_width="0dp"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_fingerprint"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+        
+        <TextView
+            android:id="@+id/txtTtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen Lock"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UnLock with your fingerprint"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgMre"
+        android:layout_width="0dp"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_more"
+        />
+
+</LinearLayout>
