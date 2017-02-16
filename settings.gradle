@@ -1,1 +1,1 @@
-include ':app', ':samplemodule', ':uixml', ':littlemoreui', ':uiproperties', ':relativelayoutapp', ':interactivitycommunication', ':animations', ':compoundviews', ':customviews', ':listview'
+include ':app', ':samplemodule', ':uixml', ':littlemoreui', ':uiproperties', ':relativelayoutapp', ':interactivitycommunication', ':animations', ':compoundviews', ':customviews', ':listview', ':listvistwithcustomadapter'
